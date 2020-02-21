@@ -1,8 +1,13 @@
 .banner {
     background: linear-gradient(45deg, rgba(10, 10, 9, 1) 0%, rgba(8, 8, 8, 1) 42%, rgba(246, 41, 12, 1) 43%, rgba(247, 28, 8, 1) 71%, rgba(247, 0, 0, 1) 83%, rgba(255, 26, 5, 1) 100%);
     display: flex;
-    padding: 3px;
-    justify-content: space-between;
+    padding: 20px;
+    height: 100px;
+    justify-content: space-around;
+}
+
+.banner div {
+    margin: 5px;
 }
 
 @media screen and (min-width: 600px) {
@@ -10,10 +15,20 @@
     /* more stuff here */
 }
 
+.input-group.md-form.form-sm.form-2 input.amber-border {
+    border: 1px solid red;
+}
+
 .banner img {
     width: 90px;
     height: 60px;
     margin-left: 20px;
+}
+
+.especial {
+    display: flex;
+    margin: 0px;
+    align-items: stretch;
 }
 
 .fadeIn {
