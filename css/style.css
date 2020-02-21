@@ -1,7 +1,8 @@
 .banner {
+    background: linear-gradient(45deg, rgba(10, 10, 9, 1) 0%, rgba(8, 8, 8, 1) 42%, rgba(246, 41, 12, 1) 43%, rgba(247, 28, 8, 1) 71%, rgba(247, 0, 0, 1) 83%, rgba(255, 26, 5, 1) 100%);
     display: flex;
     padding: 3px;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 @media screen and (min-width: 600px) {
