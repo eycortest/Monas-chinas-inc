@@ -55,3 +55,8 @@
     height: 60px;
     width: 600px;
 }
+
+.lupa {
+    display: flex;
+    align-content: space-around 2px;
+}
