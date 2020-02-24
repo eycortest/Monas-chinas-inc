@@ -119,7 +119,3 @@
 .menu li:hover .submenu {
     display: block;
 }
-
-h1 {
-    color: gray;
-}
