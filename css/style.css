@@ -61,6 +61,7 @@
 }
 
 .imaaa div img {
+    margin: 40px;
     background-color: black;
     height: 350px;
     width: 300px;
@@ -100,7 +101,7 @@
 
 .submenu {
     position: absolute;
-    background-color: gray;
+    background-color: black;
     display: none;
 }
 
