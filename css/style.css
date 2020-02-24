@@ -51,12 +51,23 @@
 
 .caja {
     display: flex;
-    align-content: nowrap;
     height: 60px;
     width: 600px;
 }
 
-.lupa {
+.imaaa {
     display: flex;
-    align-content: space-around 2px;
+    align-content: space-between 20px;
+}
+
+.imaaa div img {
+    background-color: black;
+    height: 350px;
+    width: 300px;
+    border: 8px double red;
+}
+
+.bot {
+    align-content: space-between;
+    width: 300px;
 }
