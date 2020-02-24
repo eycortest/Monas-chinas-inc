@@ -61,7 +61,7 @@
 }
 
 .imaaa div img {
-    margin: 40px;
+    margin-top: 60px;
     background-color: black;
     height: 350px;
     width: 300px;
@@ -74,7 +74,9 @@
 }
 
 .navegacion {
-    width: 1500px;
+    display: flex;
+    border-bottom: 4px double red;
+    height: 50px;
     background-color: black;
 }
 
@@ -89,7 +91,7 @@
 
 .menu>li>a {
     display: block;
-    padding: 15px 20px;
+    padding: 10px 15px;
     color: gray;
     font-family: sans-serif;
     text-decoration: none;
@@ -116,4 +118,8 @@
 
 .menu li:hover .submenu {
     display: block;
+}
+
+h1 {
+    color: gray;
 }
