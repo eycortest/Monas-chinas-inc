@@ -71,3 +71,48 @@
     align-content: space-between;
     width: 300px;
 }
+
+.navegacion {
+    width: 1500px;
+    background-color: black;
+}
+
+.navegacion ul {
+    list-style: none;
+}
+
+.menu>li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu>li>a {
+    display: block;
+    padding: 15px 20px;
+    color: gray;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.menu li a :hover {
+    color: red;
+}
+
+.submenu {
+    position: absolute;
+    background-color: gray;
+    display: none;
+}
+
+.submenu li a {
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
