@@ -1,4 +1,4 @@
- .banner {
+     .banner {
      background: linear-gradient(45deg, rgba(240, 38, 3, 1) 0%, rgba(204, 34, 12, 1) 50%, rgba(0, 0, 0, 1) 51%, rgba(5, 5, 5, 1) 71%, rgba(0, 0, 0, 1) 100%);
      display: flex;
      padding: 20px;
@@ -133,36 +133,31 @@
  .submenu {
      z-index: 100;
  }
-<<<<<<< Updated upstream
-
- .critica {
-    background-color: white;
-    width: 800px;
-    border: 5px white;
-    padding: 50px;
-    margin: 20px;
-    float: left;
+ 
+ <<<<<<< Updated upstream .critica {
+     background-color: white;
+     width: 800px;
+     border: 5px white;
+     padding: 50px;
+     margin: 20px;
+     float: left;
  }
-
+ 
  .caremondanga {
-    background-color: white;
-    width: 600px;
-    border: 5px white;
-    padding: 50px;
-    margin: 20px;
-    float: right;
-=======
- 
- .k-ru div img {
-     background-color: black;
-     height: 600px;
-     width: 400px;
-     border: 8px double red;
- }
- 
- .index {
-     height: 1000;
-     width: 500;
-     background-image: url(/imagenes/fondo.jpg);
->>>>>>> Stashed changes
- }
+     background-color: white;
+     width: 600px;
+     border: 5px white;
+     padding: 50px;
+     margin: 20px;
+     float: right;
+     .k-ru div img {
+         background-color: black;
+         height: 600px;
+         width: 400px;
+         border: 8px double red;
+     }
+     .index {
+         height: 1000;
+         width: 500;
+         background-image: url(/imagenes/fondo.jpg);
+     }
