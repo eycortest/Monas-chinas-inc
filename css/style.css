@@ -67,6 +67,7 @@
      height: 350px;
      width: 300px;
      border: 8px double red;
+     z-index: initial;
  }
  
  .bot {
@@ -114,8 +115,11 @@
  }
  
  .submenu li a {
+     display: flex;
+     align-content: center;
+     margin-right: 10px;
+     margin-left: -20px;
      display: block;
-     padding: 15px;
      color: white;
      font-family: sans-serif;
      text-decoration: none;
@@ -124,4 +128,8 @@
  
  .menu li:hover .submenu {
      display: block;
+ }
+ 
+ .submenu {
+     z-index: 100;
  }
