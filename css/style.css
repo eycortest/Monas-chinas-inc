@@ -133,3 +133,21 @@
  .submenu {
      z-index: 100;
  }
+
+ .critica {
+    background-color: white;
+    width: 800px;
+    border: 5px white;
+    padding: 50px;
+    margin: 20px;
+    float: left;
+ }
+
+ .caremondanga {
+    background-color: white;
+    width: 600px;
+    border: 5px white;
+    padding: 50px;
+    margin: 20px;
+    float: right;
+ }
