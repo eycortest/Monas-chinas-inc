@@ -1,163 +1,166 @@
      .banner {
-     background: linear-gradient(45deg, rgba(240, 38, 3, 1) 0%, rgba(204, 34, 12, 1) 50%, rgba(0, 0, 0, 1) 51%, rgba(5, 5, 5, 1) 71%, rgba(0, 0, 0, 1) 100%);
-     display: flex;
-     padding: 20px;
-     height: 150px;
-     justify-content: space-around;
- }
- 
- .banner div {
-     margin: 5px;
- }
- 
- @media screen and (min-width: 600px) {
-     /* we skip this property in flexbox and grid methods */
-     /* more stuff here */
- }
- 
- .input-group.md-form.form-sm.form-2 input.amber-border {
-     border: 1px solid red;
- }
- 
- .banner img {
-     width: 150px;
-     height: 100px;
-     margin-left: 20px;
- }
- 
- .especial {
-     display: flex;
-     margin: 0px;
-     align-items: stretch;
- }
- 
- .fadeIn {
-     -webkit-animation-duration: 4s;
-     animation-duration: 4s;
-     -webkit-animation-fill-mode: both;
-     animation-fill-mode: both;
-     -webkit-animation-name: fadeIn;
-     animation-name: fadeIn;
- }
- 
- @keyframes fadeIn {
-     from {
-         opacity: 0;
+         background: linear-gradient(45deg, rgba(240, 38, 3, 1) 0%, rgba(204, 34, 12, 1) 50%, rgba(0, 0, 0, 1) 51%, rgba(5, 5, 5, 1) 71%, rgba(0, 0, 0, 1) 100%);
+         display: flex;
+         padding: 20px;
+         height: 150px;
+         justify-content: space-around;
      }
-     to {
-         opacity: 1;
+     
+     .banner div {
+         margin: 5px;
      }
- }
- 
- .caja {
-     display: flex;
-     height: 60px;
-     width: 600px;
- }
- 
- .imaaa {
-     display: flex;
-     align-content: space-between 20px;
- }
- 
- .imaaa div img {
-     z-index: initial;
-     margin-top: 60px;
-     background-color: black;
-     height: 350px;
-     width: 300px;
-     border: 8px double red;
-     z-index: initial;
- }
- 
- .bot {
-     align-content: space-between;
-     width: 300px;
- }
- 
- img {
-     z-index: initial;
- }
- 
- .navegacion {
-     z-index: 100;
-     display: flex;
-     border-bottom: 4px double red;
-     height: 50px;
-     background-color: black;
- }
- 
- .navegacion ul {
-     list-style: none;
- }
- 
- .menu>li {
-     position: relative;
-     display: inline-block;
- }
- 
- .menu>li>a {
-     display: block;
-     padding: 10px 15px;
-     color: gray;
-     font-family: sans-serif;
-     text-decoration: none;
- }
- 
- .menu li a :hover {
-     color: red;
- }
- 
- .submenu {
-     position: absolute;
-     background-color: black;
-     display: none;
- }
- 
- .submenu li a {
-     display: flex;
-     align-content: center;
-     margin-right: 10px;
-     margin-left: -20px;
-     display: block;
-     color: white;
-     font-family: sans-serif;
-     text-decoration: none;
-     text-align: center;
- }
- 
- .menu li:hover .submenu {
-     display: block;
- }
- 
- .submenu {
-     z-index: 100;
- }
- 
- <<<<<<< Updated upstream .critica {
-     background-color: white;
-     width: 800px;
-     border: 5px white;
-     padding: 50px;
-     margin: 20px;
-     float: left;
- }
- 
- .caremondanga {
-     background-color: white;
-     width: 600px;
-     border: 5px white;
-     padding: 50px;
-     margin: 20px;
-     float: right;
+     
+     @media screen and (min-width: 600px) {
+         /* we skip this property in flexbox and grid methods */
+         /* more stuff here */
+     }
+     
+     .input-group.md-form.form-sm.form-2 input.amber-border {
+         border: 1px solid red;
+     }
+     
+     .banner img {
+         width: 150px;
+         height: 100px;
+         margin-left: 20px;
+     }
+     
+     .especial {
+         display: flex;
+         margin: 0px;
+         align-items: stretch;
+     }
+     
+     .fadeIn {
+         -webkit-animation-duration: 4s;
+         animation-duration: 4s;
+         -webkit-animation-fill-mode: both;
+         animation-fill-mode: both;
+         -webkit-animation-name: fadeIn;
+         animation-name: fadeIn;
+     }
+     
+     @keyframes fadeIn {
+         from {
+             opacity: 0;
+         }
+         to {
+             opacity: 1;
+         }
+     }
+     
+     .caja {
+         display: flex;
+         height: 60px;
+         width: 600px;
+     }
+     
+     .imaaa {
+         display: flex;
+         align-content: space-between 20px;
+     }
+     
+     .imaaa div img {
+         z-index: initial;
+         margin-top: 60px;
+         background-color: black;
+         height: 350px;
+         width: 300px;
+         border: 8px double red;
+         z-index: initial;
+     }
+     
+     .bot {
+         align-content: space-between;
+         width: 300px;
+     }
+     
+     img {
+         z-index: initial;
+     }
+     
+     .navegacion {
+         z-index: 100;
+         display: flex;
+         border-bottom: 4px double red;
+         height: 50px;
+         background-color: black;
+     }
+     
+     .navegacion ul {
+         list-style: none;
+     }
+     
+     .menu>li {
+         position: relative;
+         display: inline-block;
+     }
+     
+     .menu>li>a {
+         display: block;
+         padding: 10px 15px;
+         color: gray;
+         font-family: sans-serif;
+         text-decoration: none;
+     }
+     
+     .menu li a :hover {
+         color: red;
+     }
+     
+     .submenu {
+         position: absolute;
+         background-color: black;
+         display: none;
+     }
+     
+     .submenu li a {
+         display: flex;
+         align-content: center;
+         margin-right: 10px;
+         margin-left: -20px;
+         display: block;
+         color: white;
+         font-family: sans-serif;
+         text-decoration: none;
+         text-align: center;
+     }
+     
+     .menu li:hover .submenu {
+         display: block;
+     }
+     
+     .submenu {
+         z-index: 100;
+     }
+     
+     .critica {
+         background-color: white;
+         width: 800px;
+         border: 5px white;
+         padding: 50px;
+         margin: 20px;
+         float: left;
+     }
+     
+     .caremondanga {
+         background-color: white;
+         width: 600px;
+         border: 5px white;
+         padding: 50px;
+         margin: 20px;
+         float: right;
+     }
+     
      .k-ru div img {
          background-color: black;
          height: 600px;
          width: 400px;
          border: 8px double red;
      }
+     
      .index {
          height: 1000;
          width: 500;
-         background-image: url(/imagenes/fondo.jpg);
+         background-image: url(/imagenes/fondo2.jpg);
      }
