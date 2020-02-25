@@ -133,6 +133,7 @@
  .submenu {
      z-index: 100;
  }
+<<<<<<< Updated upstream
 
  .critica {
     background-color: white;
@@ -150,4 +151,18 @@
     padding: 50px;
     margin: 20px;
     float: right;
+=======
+ 
+ .k-ru div img {
+     background-color: black;
+     height: 600px;
+     width: 400px;
+     border: 8px double red;
+ }
+ 
+ .index {
+     height: 1000;
+     width: 500;
+     background-image: url(/imagenes/fondo.jpg);
+>>>>>>> Stashed changes
  }
