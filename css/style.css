@@ -99,7 +99,7 @@
     .menu>li>a {
         display: block;
         padding: 10px 15px;
-        color: gray;
+        color: white;
         font-family: sans-serif;
         text-decoration: none;
     }
@@ -152,15 +152,36 @@
         float: right;
     }
     
-    .k-ru div img {
-        background-color: black;
-        height: 600px;
-        width: 400px;
-        border: 8px double red;
+    .dos {
+        display: flex;
+        align-content: space-around;
     }
     
-    @media (min-width: 1200px) {
-        .index {
-            background: url("/imagenes/fondo2.jpg");
-        }
+    div.gallery {
+        margin: 20px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 250px;
+        height: 400px;
+    }
+    
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
+    
+    div.gallery img {
+        width: 100%;
+        height: 80%;
+    }
+    
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .index {
+        background-image: url(/imagenes/fondo.jpg);
+        height: 100vh;
+        background-position: 100%;
+        background-size: cover;
     }
