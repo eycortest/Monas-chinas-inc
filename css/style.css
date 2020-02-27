@@ -144,23 +144,25 @@
     .submenu {
         z-index: 100;
     }
+
+    .sugerencias{
+        height: 100%;
+        width: 100%;
+        display: inline-flex;
+        flex-direction: row;
+    }
     
     .critica {
-        background-color: white;
-        width: 800px;
-        border: 5px white;
-        padding: 50px;
-        margin: 20px;
-        float: left;
+        width: 600px;
+        height: 600px;
+        font-family: sans-serif;
     }
     
     .caremondanga {
-        background-color: white;
         width: 600px;
-        border: 5px white;
-        padding: 50px;
-        margin: 20px;
-        float: right;
+        height: 600px;
+        margin-left: 40px;
+        font-family: sans-serif;
     }
     
     .dos {
